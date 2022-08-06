@@ -1,0 +1,41 @@
+.app__navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #101828;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.app__navbar a {
+  text-decoration: none;
+}
+
+.app__header {
+  font-size: 24px;
+  color: #f2f4f7;
+}
+
+.app__navbar .nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.app__navbar .nav__list .item {
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.app__navbar .nav__list .item a {
+  font-size: 16px;
+  color: #f2f4f7;
+  border-radius: 5px;
+}
+
+.app__navbar .nav__list .item:hover {
+  background-color: #344054;
+}
+
+.app__navbar .nav__list .item.active {
+  background-color: #344054;
+}
